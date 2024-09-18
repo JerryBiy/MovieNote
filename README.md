@@ -5,6 +5,7 @@ A note book app implememted by React to store the watched movies, the user's rat
 2. Can rate the searched movie and store the movie to the watched list.
 3. The App will calculate average movies length, average user rating, and average IMDb rating.
 4. Used clean up function for useEffect to avoid race condition when searching.
+5. Use custom hook to manage movie fetch separatly.
 
 To open from render.com: https://movienote.onrender.com
 
