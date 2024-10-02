@@ -40,7 +40,7 @@ export default function MovieDetails({
       async function fetchMovie(movieId) {
         setIsLoading(true);
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${KEY}&i=${movieId}`
+          `https://www.omdbapi.com/?apikey=${KEY}&i=${movieId}`
         );
         const data = await res.json();
         setMovie(data);
